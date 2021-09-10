@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+    padding-top: 40px;
+}
 
 .container {
     max-width: 1200px;
@@ -11,7 +15,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 40px;
 }
 .search-input {
     background: #FFFFFF;
@@ -63,4 +66,16 @@
 .button-text {
     vertical-align: middle;
     padding-left: 5px;
+}
+
+.promo {
+    margin-top: 40px;
+    filter: drop-shadow(0px 7px 12px rgba(158, 158, 163, 0.1));
+    background: #FFF1B8 url(../img/promo.png) no-repeat top right;
+    border-radius: 10px;
+    padding: 68px 70px;
+}
+
+.promo-text {
+    max-width: 400px;
 }
